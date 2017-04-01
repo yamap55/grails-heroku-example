@@ -60,7 +60,5 @@ assets {
 }
 
 task stage {
-  doFirst {
-    dependsOn installDist
-  }
+  dependsOn build
 }
