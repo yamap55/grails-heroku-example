@@ -1,0 +1,9 @@
+language: groovy
+script: "./grailsw refresh-dependencies"
+deploy:
+  provider: heroku
+  api_key:
+    secure: cPIIQPLXCMZw7q3Qp/WQ6PDH9dC7KnMftgzCmWM5yIBneH4Kj2LPuMdTh2D9+37SBHyTOtcxxoXzn24hL5JDQHwnGjgAY41sxzfNnQJMJv/BqX0cutnqxjR+lSncOccqnox2jq+aKQIM55R1EflfEMuxqU6/TYaWuHOARNF0duZVZeaQKHyYavjOLJujGGMn5xwSoTYE+BIMeZfwkkYxdHjMrZ73A44k1i8B2TZJrxe88my+HnuYr73901VnRFz+/RmipmtWr2CFGv515kJEECrQwdxeTggUyCrDIf2VU0slRhARMbP9aBRtOj5ZlLzq/UAQPSbDYS+DVrtHjD/meGJMZKsEW7ghAfK9unJqFf/vr0zMEb7NeCPqD/VzK2IEtACh2ZHVrG1dyr3JsEWv20OhVilYt4QxEAuu60CMcjmerrnFeL3jVDg0+Q2sWtl/xcjZlophvOX+x2ycLswi3INiz8G8Luva7D+8bLFtdLnsRuAJi8/LAuhikuqAThoNddadCMsS8kY8URK+K0bR0O5GJzfeLcGCDZ38oSZZPcBBbk/WejXJG3Z0fKQ6QRaWDYI3OiipmTl2o7/ci4yL0lOk2JWPNoB76ilRNeSSayyiO1hZ45aMkuGL/mue5AxzGd/K4jTNiEUN9M3LqZWBs4OtvCHZ4RFO9OdvXU9iLvQ=
+  app: quiet-anchorage-27673
+  on:
+    repo: yamap55/grails-heroku-example
