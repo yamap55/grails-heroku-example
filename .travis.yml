@@ -1,5 +1,5 @@
 language: groovy
-#script: "./grailsw refresh-dependencies"
+script: "./grailsw run-app"
 deploy:
   provider: heroku
   api_key:
